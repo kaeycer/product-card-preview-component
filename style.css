@@ -1,0 +1,110 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+img {
+  width: 1440px;
+  border-radius: 20px 0 0 20px;
+}
+
+.contents {
+  display: flex;
+  margin: 8px;
+}
+
+.preview {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0 20px 20px 0;
+  padding: 15px;
+}
+
+span {
+  color: #fff;
+  margin-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.perfume {
+  display: grid;
+  color: hsl(228, 12%, 48%);
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.itemName {
+  display: grid;
+  font-family: "Fraunces", serif;
+  color: hsl(212, 21%, 14%);
+  font-size: 28px;
+}
+
+.description {
+  display: grid;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 0px;
+}
+
+.currentPrice {
+  display: grid;
+  margin: 0 26px 15px 8px;
+  font-family: "Fraunces", serif;
+  font-size: 28px;
+  color: rgb(76, 133, 102);
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.oldPrice {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-size: 15px;
+}
+
+.btn {
+  display: inline-flex;
+  margin-left: 18px;
+  height: 50px;
+  padding: 0;
+  background-color: #009578;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.btn:hover {
+  background-color: #008168;
+}
+
+.btn-icon,
+.btn-text {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 30px 0px 30px;
+  height: 100%;
+}
+
+.btn-icon {
+  padding-right: 0;
+}
+
+.btn-text {
+  padding-left: 5px;
+}
+
+.btn:active {
+  background-color: #006e58;
+}
